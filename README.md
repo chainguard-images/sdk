@@ -21,7 +21,7 @@ docker pull cgr.dev/chainguard/sdk:latest
 | Tag | Digest | Arch |
 | --- | ------ | ---- |
 | `latest` | `sha256:a9d41d1b4529a79568e4c0948ea31412af528552ab60476a9061ea03db523307`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:a9d41d1b4529a79568e4c0948ea31412af528552ab60476a9061ea03db523307) | `amd64` `arm64` `armv7` |
-| `0.0.1-r0-glibc` | `sha256:e01722b369b91674321da6d824eeb6993c6220b56debf85e8379c415bc74cfdc`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e01722b369b91674321da6d824eeb6993c6220b56debf85e8379c415bc74cfdc) |  |
+| `0.0.1-r0-glibc` | `sha256:376fe3a1606f1257886de39623bbfe917c37badc17a8b23c77c6502e8cc51c03`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:376fe3a1606f1257886de39623bbfe917c37badc17a8b23c77c6502e8cc51c03) |  |
 | `testing-20221117` | `sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313) | `amd64` |
 | `testing` `testing-20221118` | `sha256:6ad847242a795f666ccfc54d4eb99afb2e6bdb2dda0704164e80caa4c0db0e4f`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:6ad847242a795f666ccfc54d4eb99afb2e6bdb2dda0704164e80caa4c0db0e4f) | `amd64` |
 
