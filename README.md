@@ -20,12 +20,13 @@ docker pull cgr.dev/chainguard/sdk:latest
 
 | Tag | Digest | Arch |
 | --- | ------ | ---- |
+| `dev-wolfi` `dev-wolfi-20221119` | `sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027) | `amd64` |
+| `dev-alpine` `dev-alpine-20221118` | `sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5) | `amd64` `arm64` |
 | `latest` | `sha256:7dc615b80a61e0bfa00b41861b217bc7b05fb88580d918d0063014194d2c80b2`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:7dc615b80a61e0bfa00b41861b217bc7b05fb88580d918d0063014194d2c80b2) | `amd64` `arm64` `armv7` |
-| `0.0.1-r0-glibc` | `sha256:376fe3a1606f1257886de39623bbfe917c37badc17a8b23c77c6502e8cc51c03`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:376fe3a1606f1257886de39623bbfe917c37badc17a8b23c77c6502e8cc51c03) |  |
+| `0.0.1-r0-glibc` | `sha256:4acdbc47cf5733eb7e40c65da86ce6f92cfb2f7160d9d01954055ae8cec5b339`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:4acdbc47cf5733eb7e40c65da86ce6f92cfb2f7160d9d01954055ae8cec5b339) |  |
 | `testing-20221117` | `sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313) | `amd64` |
 | `testing` `testing-20221118` | `sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8) | `amd64` |
-| `dev-wolfi` `dev-wolfi-20221118` | `sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736) | `amd64` |
-| `dev-alpine` `dev-alpine-20221118` | `sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5) | `amd64` `arm64` |
+| `dev-wolfi-20221118` | `sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736) | `amd64` |
 
 
 ## Usage
