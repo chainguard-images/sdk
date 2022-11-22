@@ -20,18 +20,19 @@ docker pull cgr.dev/chainguard/sdk:latest
 
 | Tag | Digest | Arch |
 | --- | ------ | ---- |
-| `dev-wolfi-20221120` | `sha256:5475c40123a6ebbfd4aab4fa77ab7a3f7189e8084c9bd59c718ac8a585afc21e`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5475c40123a6ebbfd4aab4fa77ab7a3f7189e8084c9bd59c718ac8a585afc21e) | `amd64` |
-| `latest` | `sha256:a9eed31fc5cc01b4900d62ed7025c34eb059629d8418162e176cf390040746d9`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:a9eed31fc5cc01b4900d62ed7025c34eb059629d8418162e176cf390040746d9) | `amd64` `arm64` `armv7` |
-| `0.0.1-r0-glibc` | `sha256:fbb661f2020d8175b5560860b1d749dd5006e6d2719138db81dfda758d536a10`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:fbb661f2020d8175b5560860b1d749dd5006e6d2719138db81dfda758d536a10) |  |
-| `testing-20221117` | `sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313) | `amd64` |
+| `0.0.1-r0-glibc` | `sha256:d8a0862db7c6335902e14ea3c2b5f112f3849a4642361850895aab5009169fe4`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d8a0862db7c6335902e14ea3c2b5f112f3849a4642361850895aab5009169fe4) |  |
 | `testing` `testing-20221118` | `sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8) | `amd64` |
-| `dev-wolfi` `dev-wolfi-20221121` | `sha256:211bc053fa50e2bdf0887829d39c7b544c11992cbbca2319b3ed077011837c35`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:211bc053fa50e2bdf0887829d39c7b544c11992cbbca2319b3ed077011837c35) | `amd64` |
-| `dev-alpine-20221118` | `sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5) | `amd64` `arm64` |
-| `dev-alpine` `dev-alpine-20221121` | `sha256:38d7e1903281573860efb8a9ad2a8c736294a1af326787609f8883559c36e5ff`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:38d7e1903281573860efb8a9ad2a8c736294a1af326787609f8883559c36e5ff) | `amd64` `arm64` |
-| `dev-alpine-20221120` | `sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca) | `amd64` `arm64` |
-| `dev-wolfi-20221118` | `sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736) | `amd64` |
-| `dev-wolfi-20221119` | `sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027) | `amd64` |
+| `dev-wolfi` `dev-wolfi-20221122` | `sha256:4d1c80aed9f9459291afbbc2a57c9d72660a1e0747936cd0a56f3603a0c53a5c`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:4d1c80aed9f9459291afbbc2a57c9d72660a1e0747936cd0a56f3603a0c53a5c) | `amd64` |
+| `dev-alpine` `dev-alpine-20221121` | `sha256:d17b5535920b7ee245c51f3d0f5d4317e925ad3bc6ac731c47956df0ba2fb9a4`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d17b5535920b7ee245c51f3d0f5d4317e925ad3bc6ac731c47956df0ba2fb9a4) | `amd64` `arm64` |
 | `dev-alpine-20221119` | `sha256:8aabbaf50bf153583a523e5ff0db915fa232208a4791fa8fbd16005ba80b4157`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:8aabbaf50bf153583a523e5ff0db915fa232208a4791fa8fbd16005ba80b4157) | `amd64` `arm64` |
+| `latest` | `sha256:a9eed31fc5cc01b4900d62ed7025c34eb059629d8418162e176cf390040746d9`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:a9eed31fc5cc01b4900d62ed7025c34eb059629d8418162e176cf390040746d9) | `amd64` `arm64` `armv7` |
+| `dev-wolfi-20221118` | `sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736) | `amd64` |
+| `dev-alpine-20221118` | `sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5) | `amd64` `arm64` |
+| `dev-wolfi-20221119` | `sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027) | `amd64` |
+| `dev-wolfi-20221120` | `sha256:5475c40123a6ebbfd4aab4fa77ab7a3f7189e8084c9bd59c718ac8a585afc21e`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5475c40123a6ebbfd4aab4fa77ab7a3f7189e8084c9bd59c718ac8a585afc21e) | `amd64` |
+| `dev-alpine-20221120` | `sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca) | `amd64` `arm64` |
+| `dev-wolfi-20221121` | `sha256:94a61c7857febefef01c12f364bcc582296d1b39b3ac1fba84a3b908cf0607f2`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:94a61c7857febefef01c12f364bcc582296d1b39b3ac1fba84a3b908cf0607f2) | `amd64` |
+| `testing-20221117` | `sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313) | `amd64` |
 
 
 ## Usage
