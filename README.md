@@ -20,26 +20,27 @@ docker pull cgr.dev/chainguard/sdk:latest
 
 | Tag | Digest | Arch |
 | --- | ------ | ---- |
+| `latest` | `sha256:7c14296da5be9f118096ce905ba9b61279ba1976eab85c8bda614edbbf94c4ca`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:7c14296da5be9f118096ce905ba9b61279ba1976eab85c8bda614edbbf94c4ca) | `amd64` `arm64` `armv7` |
+| `testing-20221117` | `sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313) | `amd64` |
+| `testing` `testing-20221118` | `sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8) | `amd64` |
 | `dev-wolfi-20221119` | `sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:aefddde028e9c3d271e7a3254cd917eb249581d3a76d1fade132243a9ebe0027) | `amd64` |
 | `dev-wolfi-20221120` | `sha256:5475c40123a6ebbfd4aab4fa77ab7a3f7189e8084c9bd59c718ac8a585afc21e`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5475c40123a6ebbfd4aab4fa77ab7a3f7189e8084c9bd59c718ac8a585afc21e) | `amd64` |
+| `dev-wolfi-20221121` | `sha256:94a61c7857febefef01c12f364bcc582296d1b39b3ac1fba84a3b908cf0607f2`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:94a61c7857febefef01c12f364bcc582296d1b39b3ac1fba84a3b908cf0607f2) | `amd64` |
+| `dev-alpine-20221123` | `sha256:abc19835b5c35dff2d33041da5e30846598601eb4bc05d86fdc17651c4016538`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:abc19835b5c35dff2d33041da5e30846598601eb4bc05d86fdc17651c4016538) | `amd64` `arm64` |
+| `dev-wolfi` `dev-wolfi-20221126` | `sha256:aa430f502c3d91198f0a2ac23d5e8956c10ada8c79498c81772bdff34a729013`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:aa430f502c3d91198f0a2ac23d5e8956c10ada8c79498c81772bdff34a729013) | `amd64` |
+| `dev-alpine-20221118` | `sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5) | `amd64` `arm64` |
+| `dev-alpine-20221120` | `sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca) | `amd64` `arm64` |
+| `0.0.1-r0-glibc` | `sha256:df17e6f480a5d191612599c5f83abfe98229f8923454812e838c5d4b6b5f4a2c`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:df17e6f480a5d191612599c5f83abfe98229f8923454812e838c5d4b6b5f4a2c) |  |
+| `dev-alpine-20221121` | `sha256:d17b5535920b7ee245c51f3d0f5d4317e925ad3bc6ac731c47956df0ba2fb9a4`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d17b5535920b7ee245c51f3d0f5d4317e925ad3bc6ac731c47956df0ba2fb9a4) | `amd64` `arm64` |
+| `dev-wolfi-20221122` | `sha256:ef2dc5677acae79e49be72cc0241cd7329dcf7b369ce645e35cdc8f356f9aeee`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ef2dc5677acae79e49be72cc0241cd7329dcf7b369ce645e35cdc8f356f9aeee) | `amd64` |
 | `dev-wolfi-20221124` | `sha256:2d836578c7c624eb1257f482ef6ec581285c965af2ac644b3cb3f1ea00d05264`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:2d836578c7c624eb1257f482ef6ec581285c965af2ac644b3cb3f1ea00d05264) | `amd64` |
-| `0.0.1-r0-glibc` | `sha256:b52e2bfb82c21b7eb88b7425a1854f50dcb21799390c77669e08d13cbb1d88f1`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:b52e2bfb82c21b7eb88b7425a1854f50dcb21799390c77669e08d13cbb1d88f1) |  |
+| `dev-alpine-20221124` | `sha256:7203b3719a18f626a2efea1a552fce545bd4f537f63edce9d70e509fdb44f053`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:7203b3719a18f626a2efea1a552fce545bd4f537f63edce9d70e509fdb44f053) | `amd64` `arm64` |
+| `dev-wolfi-20221118` | `sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736) | `amd64` |
+| `dev-alpine` `dev-alpine-20221125` | `sha256:3633ae4ec4f28b15fa084e9e7f684197c021f0ee58a91736f30167fbff9bee11`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:3633ae4ec4f28b15fa084e9e7f684197c021f0ee58a91736f30167fbff9bee11) | `amd64` `arm64` |
 | `dev-alpine-20221119` | `sha256:8aabbaf50bf153583a523e5ff0db915fa232208a4791fa8fbd16005ba80b4157`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:8aabbaf50bf153583a523e5ff0db915fa232208a4791fa8fbd16005ba80b4157) | `amd64` `arm64` |
 | `dev-alpine-20221122` | `sha256:130d2accbfe32c4a83a20ec0632661834b4ee732715f3ffa33f72ab3dd5080c4`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:130d2accbfe32c4a83a20ec0632661834b4ee732715f3ffa33f72ab3dd5080c4) | `amd64` `arm64` |
 | `dev-wolfi-20221123` | `sha256:69adc4d96dc34877f831af12f04d752acc4869a0853530736864138227efd377`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:69adc4d96dc34877f831af12f04d752acc4869a0853530736864138227efd377) | `amd64` |
-| `dev-alpine` `dev-alpine-20221125` | `sha256:3633ae4ec4f28b15fa084e9e7f684197c021f0ee58a91736f30167fbff9bee11`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:3633ae4ec4f28b15fa084e9e7f684197c021f0ee58a91736f30167fbff9bee11) | `amd64` `arm64` |
-| `testing-20221117` | `sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:e198df88dcb8ef760794218a309330e0b8b3c8e1dd4c211f2951f87be1f47313) | `amd64` |
-| `testing` `testing-20221118` | `sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d6e6172257fba34e9c39e8ccd6f7292c1634357b552da0527269f3e66171c4e8) | `amd64` |
-| `dev-wolfi-20221118` | `sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:5b49de60a54bedb10578bff89509a04cfcf44978fbe17f5c823a78741bdd6736) | `amd64` |
-| `dev-wolfi-20221121` | `sha256:94a61c7857febefef01c12f364bcc582296d1b39b3ac1fba84a3b908cf0607f2`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:94a61c7857febefef01c12f364bcc582296d1b39b3ac1fba84a3b908cf0607f2) | `amd64` |
-| `latest` | `sha256:a2e218a89dbe9143526b30e20c14090c2821b56688b51d33274eb7ae2907a4c2`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:a2e218a89dbe9143526b30e20c14090c2821b56688b51d33274eb7ae2907a4c2) | `amd64` `arm64` `armv7` |
-| `dev-alpine-20221118` | `sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ed43cbaa2a57c14034aec99ac48c4ea89eed8aca8bc52a1d327e33e2d2a7cad5) | `amd64` `arm64` |
-| `dev-alpine-20221120` | `sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:4c806210640ffce120e92d6b708c48b5fc90a347536ebc671f4a0122bf7ebfca) | `amd64` `arm64` |
-| `dev-alpine-20221121` | `sha256:d17b5535920b7ee245c51f3d0f5d4317e925ad3bc6ac731c47956df0ba2fb9a4`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:d17b5535920b7ee245c51f3d0f5d4317e925ad3bc6ac731c47956df0ba2fb9a4) | `amd64` `arm64` |
-| `dev-wolfi-20221122` | `sha256:ef2dc5677acae79e49be72cc0241cd7329dcf7b369ce645e35cdc8f356f9aeee`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:ef2dc5677acae79e49be72cc0241cd7329dcf7b369ce645e35cdc8f356f9aeee) | `amd64` |
-| `dev-alpine-20221123` | `sha256:abc19835b5c35dff2d33041da5e30846598601eb4bc05d86fdc17651c4016538`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:abc19835b5c35dff2d33041da5e30846598601eb4bc05d86fdc17651c4016538) | `amd64` `arm64` |
-| `dev-alpine-20221124` | `sha256:7203b3719a18f626a2efea1a552fce545bd4f537f63edce9d70e509fdb44f053`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:7203b3719a18f626a2efea1a552fce545bd4f537f63edce9d70e509fdb44f053) | `amd64` `arm64` |
-| `dev-wolfi` `dev-wolfi-20221125` | `sha256:65b371411fae5350b91f65c8c831e6bb35699862f6d8dcbab7ea71511b12a182`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:65b371411fae5350b91f65c8c831e6bb35699862f6d8dcbab7ea71511b12a182) | `amd64` |
+| `dev-wolfi-20221125` | `sha256:65b371411fae5350b91f65c8c831e6bb35699862f6d8dcbab7ea71511b12a182`<br/>[View entry in Rekor](https://rekor.tlog.dev/?hash=sha256:65b371411fae5350b91f65c8c831e6bb35699862f6d8dcbab7ea71511b12a182) | `amd64` |
 
 
 ## Usage
@@ -156,23 +157,23 @@ The following checks were performed on each of these signatures:
         "docker-reference": "ghcr.io/chainguard-images/sdk"
       },
       "image": {
-        "docker-manifest-digest": "sha256:a2e218a89dbe9143526b30e20c14090c2821b56688b51d33274eb7ae2907a4c2"
+        "docker-manifest-digest": "sha256:7c14296da5be9f118096ce905ba9b61279ba1976eab85c8bda614edbbf94c4ca"
       },
       "type": "cosign container image signature"
     },
     "optional": {
       "1.3.6.1.4.1.57264.1.1": "https://token.actions.githubusercontent.com",
-      "1.3.6.1.4.1.57264.1.2": "schedule",
-      "1.3.6.1.4.1.57264.1.3": "2edb5415ac3f233f4749ac714fca2fd6cb63ce05",
+      "1.3.6.1.4.1.57264.1.2": "push",
+      "1.3.6.1.4.1.57264.1.3": "9f829613a2134b20e35f764f1487445581fc6db5",
       "1.3.6.1.4.1.57264.1.4": "Create Release",
       "1.3.6.1.4.1.57264.1.5": "chainguard-images/sdk",
       "1.3.6.1.4.1.57264.1.6": "refs/heads/main",
       "Bundle": {
-        "SignedEntryTimestamp": "MEUCIQDCWdOLgEcqRLrXM+7IlkFLthFLEn9a2saTyEY5fQTpcAIgVVFE2bkxH/1u+dMUxTUn6UQ3gv6D3Jjd3XmKB1auw08=",
+        "SignedEntryTimestamp": "MEUCIFz50tMulxjOw6ZS+A0n7Gy2CsPkA9b9VP0dggKsMqb0AiEA+JOV20SgL39JAER2lUTkLDg2cDF6jOY5P/mJfouDokw=",
         "Payload": {
-          "body": "eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhMjU2IiwidmFsdWUiOiI1NjFkZTZlMmZjNTBmNWEyZjIwN2ZiZWMxZjg2YWEzMzVkNjVkMzZhZmJlY2I4ZDNkMWM4OTFiZjIzM2NkOTFmIn19LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FVUNJUUN6dDUrZnMvRVg0L3dvdHhuOXRlK0xXeGk2bkZMMlZYamoybmIwN0ZGSWFRSWdiaTVnM2poVVZ6Tk1BTnRkbkpoT2Jjak1sVFd3enZWbE5ZN1dRbC9NSXBNPSIsInB1YmxpY0tleSI6eyJjb250ZW50IjoiTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVUndWRU5EUVhsMVowRjNTVUpCWjBsVlVtVkpZekJ0UXpOc05URnZjMFoxTXpaQmJFaEZObE4yYzFoSmQwTm5XVWxMYjFwSmVtb3dSVUYzVFhjS1RucEZWazFDVFVkQk1WVkZRMmhOVFdNeWJHNWpNMUoyWTIxVmRWcEhWakpOVWpSM1NFRlpSRlpSVVVSRmVGWjZZVmRrZW1SSE9YbGFVekZ3WW01U2JBcGpiVEZzV2tkc2FHUkhWWGRJYUdOT1RXcEplRTFVU1RGTlZFRjZUMVJKTUZkb1kwNU5ha2w0VFZSSk1VMVVRVEJQVkVrd1YycEJRVTFHYTNkRmQxbElDa3R2V2tsNmFqQkRRVkZaU1V0dldrbDZhakJFUVZGalJGRm5RVVYwVlZGc1lXUmpTV0YxUzI0MFpIWkRiR05SYTBOSGEycG5XR3BTVXpNekwwSlZWV0lLU0hGVFVFSmpkU3RoZWpSSVEzcHhXVzE1Y1d4RWJXNTNORGx1ZFdaRWFITnhWeTlsYlhSdFVEbFNWbGxrYWxNM1FqWlBRMEZyYjNkblowcEhUVUUwUndwQk1WVmtSSGRGUWk5M1VVVkJkMGxJWjBSQlZFSm5UbFpJVTFWRlJFUkJTMEpuWjNKQ1owVkdRbEZqUkVGNlFXUkNaMDVXU0ZFMFJVWm5VVlZ2YTNSM0NqVkhhRnBaYW1aNWFsVlNhMmRSVG5oTWVsY3djbnBuZDBoM1dVUldVakJxUWtKbmQwWnZRVlV6T1ZCd2VqRlphMFZhWWpWeFRtcHdTMFpYYVhocE5Ga0tXa1E0ZDFwUldVUldVakJTUVZGSUwwSkdjM2RYV1ZwWVlVaFNNR05JVFRaTWVUbHVZVmhTYjJSWFNYVlpNamwwVERKT2IxbFhiSFZhTTFab1kyMVJkQXBoVnpGb1dqSldla3d6VG10aGVUaDFXakpzTUdGSVZtbE1NMlIyWTIxMGJXSkhPVE5qZVRsNVdsZDRiRmxZVG14TWJteG9ZbGQ0UVdOdFZtMWplVGx2Q2xwWFJtdGplVGwwV1Zkc2RVMUVhMGREYVhOSFFWRlJRbWMzT0hkQlVVVkZTekpvTUdSSVFucFBhVGgyWkVjNWNscFhOSFZaVjA0d1lWYzVkV041Tlc0S1lWaFNiMlJYU2pGak1sWjVXVEk1ZFdSSFZuVmtRelZxWWpJd2QwWm5XVXRMZDFsQ1FrRkhSSFo2UVVKQloxRkpZekpPYjFwWFVqRmlSMVYzVG1kWlN3cExkMWxDUWtGSFJIWjZRVUpCZDFGdlRXMVdhMWxxVlRCTlZGWm9XWHBPYlUxcVRYcGFhbEV6VGtSc2FGbDZZM2hPUjFwcVdWUktiVnBFV21wWmFsbDZDbGt5VlhkT1ZFRmpRbWR2Y2tKblJVVkJXVTh2VFVGRlJVSkJOVVJqYlZab1pFZFZaMVZ0Vm5OYVYwWjZXbFJCYWtKbmIzSkNaMFZGUVZsUEwwMUJSVVlLUWtKV2FtRkhSbkJpYldReFdWaEthMHhYYkhSWlYyUnNZM2s1ZWxwSGMzZElVVmxMUzNkWlFrSkJSMFIyZWtGQ1FtZFJVR050Vm0xamVUbHZXbGRHYXdwamVUbDBXVmRzZFUxSlIwdENaMjl5UW1kRlJVRmtXalZCWjFGRFFraDNSV1ZuUWpSQlNGbEJNMVF3ZDJGellraEZWRXBxUjFJMFkyMVhZek5CY1VwTENsaHlhbVZRU3pNdmFEUndlV2RET0hBM2J6UkJRVUZIUlhKc04yaEpaMEZCUWtGTlFWSjZRa1pCYVVWQmJHVjRhSFZ3VW1RMFFYUTBla2R2VFVkamMzb0tMM0U0VDNsNVpXRkdhRlJhT1VoeVRFb3dUelpQSzFGRFNVRTNSREJTYTA5alZsRjRaV2N2WlZZNU1uQlJaWEpDVDB4a05rWnhUV2N5VlZwSVZWUmpRZ295VXpJeFRVRnZSME5EY1VkVFRUUTVRa0ZOUkVFeVowRk5SMVZEVFVabVRWRnVXa2xNY0hrMlMwWk5ZVzB2YmsxdVRFSmxPRkpsYVhORFNGcFhSVGQ1Q2tWa1MwVndWRk5JTW5ScWF6QlRjRkUwWkZNNUsyOXdSRFZsTmpFdlFVbDRRVTF5YnpodFYzSkpWbVJ0WVM4elEwWnVOWEpvYjB0eWNtOXRSSGxoUjFJS1ZHZHROalpNTTJFelZFaFVhMkZsVVZCWVVuYzRTR3BZTkZKRFdFSnViMjUxUVQwOUNpMHRMUzB0UlU1RUlFTkZVbFJKUmtsRFFWUkZMUzB0TFMwSyJ9fX19",
-          "integratedTime": 1669372777,
-          "logIndex": 7819535,
+          "body": "eyJhcGlWZXJzaW9uIjoiMC4wLjEiLCJraW5kIjoiaGFzaGVkcmVrb3JkIiwic3BlYyI6eyJkYXRhIjp7Imhhc2giOnsiYWxnb3JpdGhtIjoic2hhMjU2IiwidmFsdWUiOiI2NGMzODc1MTAyMDFlMWZjYTNjMDlkNDMxMjY2ZWU4OGQ3Y2Y2ZGZkNTUxYzhjMDllMGI3NzEyZDFhNTk4M2EyIn19LCJzaWduYXR1cmUiOnsiY29udGVudCI6Ik1FWUNJUURBSkpuUjI3S1FXT3M0Lzk1MjJtb2FXOW1Ua2xadWFjMzZsTi91Nkp3UzFBSWhBSWZmMnF0b0lkSEIvSG5WRFV4T2dSZzRDWm9IOXJvV0d4ZCtmUlJwbWkveiIsInB1YmxpY0tleSI6eyJjb250ZW50IjoiTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVUnZha05EUVhscFowRjNTVUpCWjBsVlNYVkxReTlWYWxvclZrdExVWGRpZVU5RGVXb3pRWHBpTVV3d2QwTm5XVWxMYjFwSmVtb3dSVUYzVFhjS1RucEZWazFDVFVkQk1WVkZRMmhOVFdNeWJHNWpNMUoyWTIxVmRWcEhWakpOVWpSM1NFRlpSRlpSVVVSRmVGWjZZVmRrZW1SSE9YbGFVekZ3WW01U2JBcGpiVEZzV2tkc2FHUkhWWGRJYUdOT1RXcEplRTFVU1RGTlZFbDZUMFJOTTFkb1kwNU5ha2w0VFZSSk1VMVVTVEJQUkUwelYycEJRVTFHYTNkRmQxbElDa3R2V2tsNmFqQkRRVkZaU1V0dldrbDZhakJFUVZGalJGRm5RVVY1UVRkT1lsZzFia3hCVWxVeFNYQkRPWHBKU1hrdllYbzBWRlkzUWtGNVRURkxZVGNLWlZrd1dVSlNNV1oyWW5aRVNtWkdkV1pzY25kSVkyd3lWMFpEWW1ReE1URlNkbWt4TjFSVWIwUnBkMEY2UkdsSWFIRlBRMEZyWTNkblowcEVUVUUwUndwQk1WVmtSSGRGUWk5M1VVVkJkMGxJWjBSQlZFSm5UbFpJVTFWRlJFUkJTMEpuWjNKQ1owVkdRbEZqUkVGNlFXUkNaMDVXU0ZFMFJVWm5VVlYyUm5GS0NsaDJlazl3UW10dVpVdFhMM0pHZEZSTWJuWkdhaXMwZDBoM1dVUldVakJxUWtKbmQwWnZRVlV6T1ZCd2VqRlphMFZhWWpWeFRtcHdTMFpYYVhocE5Ga0tXa1E0ZDFwUldVUldVakJTUVZGSUwwSkdjM2RYV1ZwWVlVaFNNR05JVFRaTWVUbHVZVmhTYjJSWFNYVlpNamwwVERKT2IxbFhiSFZhTTFab1kyMVJkQXBoVnpGb1dqSldla3d6VG10aGVUaDFXakpzTUdGSVZtbE1NMlIyWTIxMGJXSkhPVE5qZVRsNVdsZDRiRmxZVG14TWJteG9ZbGQ0UVdOdFZtMWplVGx2Q2xwWFJtdGplVGwwV1Zkc2RVMUVhMGREYVhOSFFWRlJRbWMzT0hkQlVVVkZTekpvTUdSSVFucFBhVGgyWkVjNWNscFhOSFZaVjA0d1lWYzVkV041Tlc0S1lWaFNiMlJYU2pGak1sWjVXVEk1ZFdSSFZuVmtRelZxWWpJd2QwVm5XVXRMZDFsQ1FrRkhSSFo2UVVKQloxRkZZMGhXZW1GRVFUSkNaMjl5UW1kRlJRcEJXVTh2VFVGRlJFSkRaelZhYW1kNVQxUlplRTB5UlhsTlZFMHdXV3BKZDFwVVRURmFhbU15VGtkWmVFNUVaek5PUkZFeFRsUm5lRnB0VFRKYVIwa3hDazFDZDBkRGFYTkhRVkZSUW1jM09IZEJVVkZGUkd0T2VWcFhSakJhVTBKVFdsZDRiRmxZVG14TlEwMUhRMmx6UjBGUlVVSm5OemgzUVZGVlJVWlhUbThLV1Zkc2RWb3pWbWhqYlZGMFlWY3hhRm95Vm5wTU0wNXJZWHBCWkVKbmIzSkNaMFZGUVZsUEwwMUJSVWRDUVRsNVdsZGFla3d5YUd4WlYxSjZUREl4YUFwaFZ6UjNaMWx6UjBOcGMwZEJVVkZDTVc1clEwSkJTVVZtVVZJM1FVaHJRV1IzUkdSUVZFSnhlSE5qVWsxdFRWcElhSGxhV25walEyOXJjR1YxVGpRNENuSm1LMGhwYmt0QlRIbHVkV3BuUVVGQldWTjFla0ZaTDBGQlFVVkJkMEpKVFVWWlEwbFJReXRWYlRkemJXdDBRa056VlhkNFdISjRTM0V5U0d4NGVTc0tWVXB4ZVRoclJGWTRlbkpKY0dST04ybDNTV2hCVUdobFZuRkVjVFpLVlVkUmQycFhWVk5GYlVoa05FVmhlblJVTDBGVmVXSmFlRzlXTTJKMlpXWTVXZ3BOUVc5SFEwTnhSMU5OTkRsQ1FVMUVRVEpuUVUxSFZVTk5SbXBxYjBKMVQwTk5XREpsZUM5VVJVd3lXbTlDUTFGVFdsQkZWVk5WYjBsc1QyeDFWRzlzQ204M2FEVkpLMDB5TjJWS2JsTk9ZVTVNV25VeWJubGxiREJSU1hoQlQxcG1SMWRLUm05cmNYTkNWRlJJWlhKTE9EWnJPRmxhYkV4eVEzUmpRMnRXZDJnS2QyTkxSV05YT1ZrdmVtZE1lVXRITm1ZeWVrWTNlR2RhWVVOdWFUWkJQVDBLTFMwdExTMUZUa1FnUTBWU1ZFbEdTVU5CVkVVdExTMHRMUW89In19fX0=",
+          "integratedTime": 1669379928,
+          "logIndex": 7825190,
           "logID": "c0d23d6ad406973f9559f3ba2d1ca01f84147d8ffc5b8445c224f98b9591801d"
         }
       },
@@ -181,11 +182,11 @@ The following checks were performed on each of these signatures:
       "githubWorkflowName": "Create Release",
       "githubWorkflowRef": "refs/heads/main",
       "githubWorkflowRepository": "chainguard-images/sdk",
-      "githubWorkflowSha": "2edb5415ac3f233f4749ac714fca2fd6cb63ce05",
-      "githubWorkflowTrigger": "schedule",
-      "run_attempt": "2",
-      "run_id": "3544298631",
-      "sha": "2edb5415ac3f233f4749ac714fca2fd6cb63ce05"
+      "githubWorkflowSha": "9f829613a2134b20e35f764f1487445581fc6db5",
+      "githubWorkflowTrigger": "push",
+      "run_attempt": "1",
+      "run_id": "3547806515",
+      "sha": "9f829613a2134b20e35f764f1487445581fc6db5"
     }
   }
 ]
